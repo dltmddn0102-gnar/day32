@@ -109,7 +109,7 @@ def main():
                 pp('조회 오류 : ', pe, type(pe).__name__)
                 st.error('이력 조회 실패. DB 연결과 text_runs 테이블을 확인하세요.')
             except OSError as oe:
-                st.error('sql폴더를 확인하세요.')
+                st.error('sql폴더를 확인하세요')
 
 if __name__ == '__main__':
     main()
