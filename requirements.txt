@@ -1,2 +1,0 @@
-streamlit>=1.40,<1.62.0
-psycopg[binary]>3.2,<4python-dotenv
